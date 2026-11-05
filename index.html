@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="sv"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RoadRecce – vägrekognoscering utan täckning</title>
+<meta name="description" content="RoadRecce gör vägrekognoscering digital: planera rutten, se vad vägdatan säger, kontrollera på plats och lämna en tydlig rapport. Fungerar utan uppkoppling.">
+<link rel="stylesheet" href="style.css"></head><body>
+<header class="top"><div class="wrap"><a class="logo" href="index.html">RoadRecce</a><nav><a href="support.html">Support</a><a href="support.html#integritet">Integritet</a></nav></div></header>
+<main>
+<div class="wrap hero">
+<span class="status">I testning – inte allmänt tillgänglig än</span>
+<h1>Vägrekognoscering som fungerar utan täckning.</h1>
+<p class="lead">Planera rutten, se vad vägdatan säger om broar, bredder och hinder, kontrollera på plats och lämna en tydlig rapport. På iPhone, iPad och Android.</p>
+<a class="btn" href="mailto:roadrecce@omgmedia.se?subject=RoadRecce%20testare">Bli testare</a><a class="btn alt" href="#plattformar">iOS och Android</a><a class="btn alt" href="#sa-fungerar-det">Så fungerar det</a>
+<figure class="hero-shot"><img src="img/ios-karta.jpg" alt="RoadRecce på iPad: Södra Sverige på en karta som fungerar utan uppkoppling, med registrerade hinder markerade." width="1400" height="1289"><figcaption>RoadRecce på iPad. Kartan ligger i enheten.</figcaption></figure>
+</div>
+<section><div class="wrap split">
+<div><h2>Ruttens begränsningar på ett ställe</h2><p>RoadRecce räknar fram rutten i telefonen utifrån Sveriges nationella vägdata (NVDB) och visar vad som begränsar den: fri höjd, bredd, bärighet, broar och järnvägskorsningar. Du ser längd, körtid och vilka sträckor som behöver kontrolleras.</p><p>Rapporten blir en PDF som är likadan på alla plattformar.</p></div>
+<figure><img src="img/ruttresultat.jpg" width="1280" height="800" alt="Ruttresultat bredvid kartan: maxhöjd 4,1 meter vid två hinder, ruttlängd 138 kilometer." loading="lazy"><figcaption>Ruttresultat på Android, längs en provrutt.</figcaption></figure>
+</div></section>
+<section><div class="wrap split flip">
+<div><h2>Byggd för att användas i bilen</h2><p>Fältläget tar dig från stopp till stopp längs rutten. Stämmer det som databasen säger, eller avviker det? Ett tryck räcker, och din observation sparas bredvid det ursprungliga värdet, aldrig över det.</p><p>Hittar du ett hinder lägger du in det direkt. Blockerar det rutten föreslår appen en omledning.</p></div>
+<figure><img src="img/faltlage.jpg" width="1280" height="800" alt="Fältläget: ett kort visar ett vägarbete med knapparna Stämmer, Avviker och Kan ej se över kartan." loading="lazy"><figcaption>Fältläget på Android, vid en kontroll på en provrutt.</figcaption></figure>
+</div></section>
+<section id="sa-fungerar-det"><div class="wrap"><h2>Så fungerar det</h2>
+<ol class="steps"><li><strong>Planera.</strong> Sätt ut rutten på kartan, med kontrollpunkter och spärrar, och få en analys av vägarna.</li><li><strong>Fördela.</strong> Ge uppdraget till patrullen, med ruttens litreringslista och förslag på trafikposter.</li><li><strong>Kontrollera.</strong> Kör rutten i fältläget och registrera vad ni ser.</li><li><strong>Rapportera.</strong> Skicka tillbaka registreringarna och få en PDF. Går samma sträcka att läsa på två sätt visas skillnaden, så att någon kan avgöra.</li></ol>
+</div></section>
+<section><div class="wrap"><h2>Det som ingår</h2><div class="grid">
+<div><h3>Offline i fält</h3><p>Karta, rutter och analys finns i enheten. Fältarbetet kräver inget nät, ingen server och inget konto.</p></div>
+<div><h3>Hinder och omledningar</h3><p>Egna hinder och Trafikverkets vägarbeten längs rutten. Sök en väg runt avbrottet och reka den.</p></div>
+<div><h3>Litrering och trafikposter</h3><p>Listor över platser och skyltar utifrån rutten, och förslag på var trafikposter behövs.</p></div>
+<div><h3>Delning i plutonen</h3><p>Uppdrag, rapporter och rullor delas som krypterade filer till plutonens medlemmar, via den väg ni redan använder.</p></div>
+<div><h3>Koordinater ni kan läsa upp</h3><p>MGRS under hårkorset, bäring och avstånd vid mätning, och UPK med riktning till närmaste punkt.</p></div>
+<div><h3>Nödradering</h3><p>Ta bort rutter, uppdrag, observationer och nycklar från enheten med en åtgärd.</p></div>
+</div></div></section>
+<section><div class="wrap"><div class="note"><h2>Databasen är inte verkligheten</h2><p>Vägdata är referensinformation. En saknad uppgift betyder inte att begränsningen inte finns. Därför skiljer RoadRecce på vad databasen säger, vad någon har sett och vad någon har mätt, och varje bedömning visar sina skäl. Appen ersätter inte rekognoscering, den gör den snabbare och lättare att följa upp.</p></div></div></section>
+<section id="plattformar"><div class="wrap"><h2>iOS och Android</h2><p class="lead">Samma data och samma filer, så att en pluton kan blanda enheter. Ett uppdrag från en iPhone öppnas på en Android-telefon och tvärtom.</p>
+<div class="platforms">
+<div class="platform"><h3>iPhone och iPad</h3><p>Kräver iOS 18 eller nyare. Testas via TestFlight.</p><p>Bekräftas med Face ID, Touch ID eller kod. Nycklarna ligger i enhetens säkra enklav.</p></div>
+<div class="platform"><h3>Android</h3><p>Kräver Android 12 eller nyare. Testas via Google Play.</p><p>Kräver hårdvarubaserat nyckelskydd, vilket de flesta moderna telefoner har. Några funktioner finns ännu bara på iOS, till exempel översikten med flera rutter.</p></div>
+</div></div></section>
+<section><div class="wrap"><h2>Vill du prova?</h2><p class="lead">Appen testas nu med en mindre grupp. Berätta vilken enhet du har, iPhone, iPad eller Android, så hör vi av oss.</p><a class="btn" href="mailto:roadrecce@omgmedia.se?subject=RoadRecce%20testare">Kontakta oss</a></div></section>
+</main>
+<footer><div class="wrap">RoadRecce. Vägdata från NVDB, Trafikverket. <a href="support.html">Support</a> · <a href="support.html#integritet">Integritet</a></div></footer>
+</body></html>
